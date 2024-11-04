@@ -15,6 +15,15 @@ _your text_
 - 刪除線：
 ~your text~
 
+    - 粗體：
+    *your text*
+    
+    - 斜體：
+    _your text_
+    
+    - 刪除線：
+    ~your text~
+
 
 
 
@@ -29,6 +38,18 @@ _your text_
 
 ###### This is an `<h6>` tag
  
+
+    **bold**
+    標題字
+    
+    # This is an `<h1>` tag
+    次標題字
+    
+    ## This is an `<h2>` tag
+    小標題字
+    
+    ###### This is an `<h6>` tag
+
  
 
 ## 列表     
@@ -37,6 +58,13 @@ _your text_
 * Item 2
   * Item 2a
   * Item 2b
+
+    * Item 1
+    * Item 2
+      * Item 2a
+      * Item 2b
+
+
 
 ## 清單
 
@@ -56,25 +84,50 @@ _your text_
 -   Green
 -   Blue
 
+    *   Red
+    *   Green
+    *   Blue
+    
+    等同於：
+    +   Red
+    +   Green
+    +   Blue
+    
+    也等同於：
+    -   Red
+    -   Green
+    -   Blue
+
 ### 有序清單   則使用數字接著一個英文句點：
 
 1.  Bird
 2.  McHale
 3.  Parish
 
+    1.  Bird
+    2.  McHale
+    3.  Parish
+
 ## CheckBox
 
 - [x] This is a complete item
 - [ ] This is an incomplete item
+
+    - [x] This is a complete item
+    - [ ] This is an incomplete item
 
 ## 區塊
 
 小區塊語法：
 
 `Format one word or one line`
+
+    `Format one word or one line`
 大區塊語法：
 
     code (4 spaces indent)
+
+        code (4 spaces indent)
 
 ##  程式碼
 
@@ -83,6 +136,10 @@ _your text_
     ```js
     這邊是程式碼
     ```
+
+         ```js
+        這邊是程式碼
+        ```
     
 ##  圖片
 插入圖片語法
@@ -98,6 +155,12 @@ _your text_
 >>Quote two sentences
 >>>Quote three sentences
 
+
+    > Quote one sentences
+    >>Quote two sentences
+    >>Quote two sentences
+    >>>Quote three sentences
+
 ## 行內 HTML
 
 This is a regular paragraph.
@@ -109,5 +172,15 @@ This is a regular paragraph.
 </table>
 
 This is another regular paragraph.
+
+    This is a regular paragraph.
+    
+    <table>
+        <tr>
+            <td>Foo</td>
+        </tr>
+    </table>
+    
+    This is another regular paragraph.
 
 ### http://images.google.com/images?num=30&q=larry+bird
