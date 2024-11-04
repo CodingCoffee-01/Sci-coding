@@ -14,7 +14,7 @@ _your text_
 
 - 刪除線：
 ~your text~
-'''
+```Markdown
     - 粗體：
     *your text*
     
@@ -23,7 +23,7 @@ _your text_
     
     - 刪除線：
     ~your text~
-'''
+```
 
 
 
