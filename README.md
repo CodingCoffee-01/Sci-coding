@@ -1,6 +1,6 @@
 ### Sci-coding topics
 
-_Markdown Latex_
+**_Markdown Latex_**
 
 - [Markdown template](https://github.com/CodingCoffee-01/Sci-coding/blob/main/Markdown_template.md)
 
